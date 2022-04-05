@@ -7,13 +7,10 @@ export default () => ({
     id: 'workspace',
   },
   styles: {
-    //border: '1px solid #009933',
-    border: '2px solid #666699',
-    //height: 'calc(100vh - 140px)',
-    height: 'calc(100vh - 60px)',
+    border: '2px solid #009933',
+    height: 'calc(100vh - 40px)',
     margin: '0 12px',
     padding: '5px',
-    borderRadius: '10px',
   },
   children: [],
   methods: {

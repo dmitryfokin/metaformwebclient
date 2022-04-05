@@ -11,13 +11,13 @@ export default () => ({
       tag: 'title',
       text: 'Metarhia example metaform prototype',
     },
-    {
-      tag: 'meta',
-      attrs: {
-        'http-equiv': 'Content-Security-Policy',
-        content: "connect-src 'self' wss:; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com",
-      },
-    },
+    // {
+    //   tag: 'meta',
+    //   attrs: {
+    //     'http-equiv': 'Content-Security-Policy',
+    //     content: "connect-src 'self' wss:; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com",
+    //   },
+    // },
     {
       tag: 'link',
       attrs: {
