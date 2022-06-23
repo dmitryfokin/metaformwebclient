@@ -10,7 +10,7 @@ export default () => ({
   },
   hooks: {
     init() {
-      console.timeEnd('Bootstrap | index hook init()');
+      //console.timeEnd('Bootstrap | index hook init()');
     },
   },
   children: [
@@ -45,7 +45,7 @@ export default () => ({
           },
           children: [
             {
-              path: './panelColors',
+              path: '../components/panelColors.js',
               base: import.meta.url,
             },
             {

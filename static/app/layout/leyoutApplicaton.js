@@ -32,5 +32,5 @@ export default () => ({
   },
   hooks: {
   },
-  children: renderLayout(leyoutApplicaton.children),
+  children: renderLayout(application.sessionData.leyoutApplicaton.children),
 });

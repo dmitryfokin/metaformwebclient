@@ -7,6 +7,7 @@ export default (options) => ({
     border: '2px solid rgb(0 166 39)',
     margin: '2px 2px 2px 2px',
     height: options.height || '48px',
+    backgroundColor: '#333',
   },
   hooks: {
   },

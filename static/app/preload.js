@@ -1,5 +1,5 @@
-import Head from './pages/head.js';
-import Index from './pages/index.js';
+import Head from './layout/head.js';
+import Index from './layout/index.js';
 
 export default {
   Head,
